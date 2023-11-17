@@ -1,0 +1,125 @@
+:root{
+--dark: #3983ED;
+--blue: rgb(20, 30, 50)
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: rgb(20, 18, 37);
+color: whitesmoke;
+}
+
+h1{
+    margin: 2rem;
+    background-image: linear-gradient(to right, rgba(119, 6, 211, 0.8), rgba(170, 5, 107, 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header{ display: grid;
+    place-items: center;
+    padding: 1rem;
+}
+
+#new-task{
+    display: flex;
+    justify-content: space-between;
+}
+
+#a-new-task{
+    border: none;
+    border-radius: 20px;
+    width: 70vw;
+    background: rgb(80, 79, 79);
+    padding: 10px;
+    margin-right: 5vw;
+    color: whitesmoke;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+#sub{
+    border: none;
+    background-image: linear-gradient(to left, rgba(119, 6, 211, 1), rgba(240, 34, 147, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;   
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: auto 5vw;
+    flex-direction: column;
+}
+
+h2{
+  color: rgb(165, 34, 252);
+  margin: 3vh 40vw;
+}
+
+#fresh{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 80vw;
+    background: rgb(80, 79, 79);
+    padding: 10px;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+    
+}
+
+#free{
+    background: rgb(79, 79, 80);
+}
+#fresh-task{
+    background: none;
+    border: none;   
+    font-size: 16px; 
+    width: 60vw;
+    /* padding: 10px auto; */
+    line-height: 2rem;
+    margin-right: 2vw;
+}
+
+span{
+display: flex;
+background: transparent;
+}  
+#edit, #save{
+    border: none;
+    background-image: linear-gradient(to left, rgb(211, 105, 6), rgba(228, 196, 13, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;  
+    margin-right: 2vw; 
+    font-size: 18px;
+}
+
+#save{
+    background: rgb(69, 185, 69);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-size: 18px; */
+}
+
+#Delete{
+    border: none;
+    background: rgb(243, 76, 76);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;  
+    font-size: 16px; 
+}
+
+#sub:hover, button:hover{
+    opacity: .4;
+}
+
+#sub, button{
+    font-size: 16px;
+}
